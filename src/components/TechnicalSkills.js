@@ -1,4 +1,3 @@
-import React from 'react';
 import {
     Box,
     SimpleGrid,
@@ -53,25 +52,25 @@ const TechnicalSkills = () => {
     const skillCategories = [
         {
             title: "Frontend Architecture",
-            // icon: FaCode,
+            icon: FaCode,
             color: "cyan.400",
             skills: ["React", "Next.js", "Angular", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Gatsby", "Remix"]
         },
         {
             title: "State & Data Management",
-            // icon: FaLayerGroup,
+            icon: FaLayerGroup,
             color: "blue.400",
             skills: ["Redux", "React-Query", "GraphQL", "Context API", "Rest APIs"]
         },
         {
             title: "Backend & Database",
-            // icon: FaDatabase,
+            icon: FaDatabase,
             color: "purple.400",
             skills: ["Node.js", "PostgreSQL", "Prisma", "NestJS", "MongoDB", "Express"]
         },
         {
             title: "Tools & Methodologies",
-            // icon: FaTools,
+            icon: FaTools,
             color: "green.400",
             skills: ["Agile/Scrum", "Git", "CI/CD", "OpenAI API", "Pinecone", "Contentful CMS"]
         }

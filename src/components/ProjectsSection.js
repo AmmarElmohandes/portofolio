@@ -3,6 +3,12 @@ import { Box, Heading, SimpleGrid, Text, VStack } from "@chakra-ui/react";
 import Card from "./Card";
 
 const projects = [
+  {
+    title: "CraveSpot",
+    description: "Built end to end a cross-platform restaurant discovery platform inspired by TikTok-style feeds using Next.js, React Native, NestJS, Prisma, and PostgreSQL. Designed a restaurant-based recommendation system with branch-aware discovery, analytics tracking, favorites, and infinite swipe-based exploration.",
+    getImageSrc: () => require("../images/cravespotw.png"),
+    link: "https://food-review-web.vercel.app/"
+  },
 
   {
     title: "Gooding",
